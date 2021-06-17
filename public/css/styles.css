@@ -95,7 +95,7 @@ body main .card-body .numbers div :not(span:first-child) {
 
 @media screen and (min-width: 1440px) {
   body {
-    padding: 7rem 0;
+    padding: unset;
   }
   body main {
     width: 80%;
@@ -117,8 +117,7 @@ body main .card-body .numbers div :not(span:first-child) {
     border-radius: 0 5px 5px 0;
   }
   body main .card-body {
-    padding: 4rem 6rem 0 4rem;
-    height: 100%;
+    padding: 6vw 6vw 6vw 6vw;
     width: 50%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -133,10 +132,14 @@ body main .card-body .numbers div :not(span:first-child) {
     border-radius: 0 0 5px 5px;
   }
   body main .card-body h1 {
+    font-size: 2.4vw;
     text-align: left;
+    margin-bottom: 2vw;
   }
   body main .card-body p {
+    line-height: 2vw;
     text-align: left;
+    margin-bottom: 5vw;
   }
   body main .card-body .numbers {
     text-align: left;
@@ -158,7 +161,7 @@ body main .card-body .numbers div :not(span:first-child) {
         -ms-flex-pack: center;
             justify-content: center;
     font-weight: 400;
-    margin-right: 6rem;
+    margin: unset;
   }
   body main .card-body .numbers div span:first-child {
     margin-bottom: .5rem;
