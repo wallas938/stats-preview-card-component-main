@@ -1,15 +1,13 @@
 body {
   background-color: #090b1a;
   padding: 5rem 0;
-  height: 100vh;
   font-size: 15px;
   font-family: 'Inter', sans-serif;
   color: #FFF;
 }
 
 body main {
-  width: 80%;
-  height: 100%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -22,7 +20,7 @@ body main .card-header img {
 }
 
 body main .card-body {
-  padding: 2rem .5rem;
+  padding: 11vw 8vw;
   height: 70%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -40,9 +38,10 @@ body main .card-body {
 
 body main .card-body h1 {
   color: #FFF;
-  font-size: 2rem;
+  font-size: 7.5vw;
   font-weight: 700;
   text-align: center;
+  margin-bottom: 5vw;
 }
 
 body main .card-body h1 span {
@@ -51,15 +50,15 @@ body main .card-body h1 span {
 
 body main .card-body p {
   text-align: center;
-  line-height: 1.8rem;
+  line-height: 6.5vw;
   font-weight: 400;
   font-family: 'Lexend Deca', sans-serif;
   color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 12vw;
 }
 
 body main .card-body .numbers {
   text-align: center;
-  height: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -80,16 +79,14 @@ body main .card-body .numbers div {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 33%;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
   font-weight: 400;
+  margin-bottom: 8vw;
 }
 
 body main .card-body .numbers div span:first-child {
   font-size: 1.5rem;
   font-weight: 700;
+  margin-bottom: 2vw;
 }
 
 body main .card-body .numbers div :not(span:first-child) {
