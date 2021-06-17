@@ -1,0 +1,170 @@
+body {
+  background-color: #090b1a;
+  padding: 5rem 0;
+  height: 100vh;
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  color: #FFF;
+}
+
+body main {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+body main .card-header img {
+  width: 100%;
+  display: block;
+  border-radius: 5px 5px 0 0;
+  -webkit-filter: invert(20%) sepia(25%) saturate(7492%) hue-rotate(241deg) brightness(66%) contrast(111%);
+          filter: invert(20%) sepia(25%) saturate(7492%) hue-rotate(241deg) brightness(66%) contrast(111%);
+}
+
+body main .card-body {
+  padding: 2rem .5rem;
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-radius: 0 0 5px 5px;
+  background-color: #1b1938;
+}
+
+body main .card-body h1 {
+  color: #FFF;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+body main .card-body h1 span {
+  color: #aa5cdb;
+}
+
+body main .card-body p {
+  text-align: center;
+  line-height: 1.8rem;
+  font-weight: 400;
+  font-family: 'Lexend Deca', sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+body main .card-body .numbers {
+  text-align: center;
+  height: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body main .card-body .numbers div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 33%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-weight: 400;
+}
+
+body main .card-body .numbers div span:first-child {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+body main .card-body .numbers div :not(span:first-child) {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    padding: 7rem 0;
+  }
+  body main {
+    width: 80%;
+    height: 60%;
+    margin: 5% auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  body main .card-header {
+    width: 50%;
+  }
+  body main .card-header img {
+    height: 100%;
+    border-radius: 0 5px 5px 0;
+  }
+  body main .card-body {
+    padding: 4rem 6rem 0 4rem;
+    height: 100%;
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border-radius: 0 0 5px 5px;
+  }
+  body main .card-body h1 {
+    text-align: left;
+  }
+  body main .card-body p {
+    text-align: left;
+  }
+  body main .card-body .numbers {
+    text-align: left;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  body main .card-body .numbers div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-weight: 400;
+    margin-right: 6rem;
+  }
+  body main .card-body .numbers div span:first-child {
+    margin-bottom: .5rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
